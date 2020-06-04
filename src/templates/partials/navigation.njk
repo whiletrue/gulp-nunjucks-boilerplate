@@ -1,0 +1,9 @@
+<nav>
+    <ul>
+        {% for item in navItems %}
+            <li class="nav-item {% if activePageId == item.id %}active{% endif %}">
+                <a class="nav-item nav-link" href="{{ item.path }}">{{ item.label }}</a>
+            </li>
+        {% endfor %}
+    </ul>
+</nav>

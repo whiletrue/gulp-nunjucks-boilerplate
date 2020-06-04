@@ -1,0 +1,19 @@
+{
+  "navItems" : [
+    {
+      "id": "home",
+      "label": "Home",
+      "path": "index.html"
+    },
+    {
+      "id": "about",
+      "label": "About",
+      "path": "about.html"
+    },
+    {
+      "id": "contact",
+      "label": "Contact", 
+      "path": "contact.html"
+    }
+  ]
+}

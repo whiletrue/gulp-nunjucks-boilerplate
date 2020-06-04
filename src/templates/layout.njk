@@ -1,0 +1,19 @@
+<!--app/templates/layout.njk -->
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"/>
+        
+        <link rel="stylesheet" href="css/styles.css"> </link>
+
+        <script type="text/javascript" src="js/main.js"> </script>
+    </head>
+    <body>
+        {% block nav %}
+            {% include "partials/navigation.njk" %}
+        {% endblock %}
+        <main>
+          {% block content %} {% endblock %}
+        </main>
+    </body>
+</html>
